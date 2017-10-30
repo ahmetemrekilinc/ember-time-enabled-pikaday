@@ -10,11 +10,16 @@ export default Pikaday.extend({
       let showMinutes = (this.get('showMinutes') !== false);
       let showSeconds = (this.get('showSeconds') === true);
 
+      let timeLabel = '';
+      if(!Ember.isBlank(this.get('timeLabel'))){
+        timeLabel = this.get('timeLabel');
+      }
+
       Ember.set(this.get('pikaday._o'), 'showTime', timeEnabled);
       Ember.set(this.get('pikaday._o'), 'showMinutes', showMinutes);
       Ember.set(this.get('pikaday._o'), 'showSeconds', showSeconds);
       Ember.set(this.get('pikaday._o'), 'use24hour', use24hour);
-      Ember.set(this.get('pikaday._o'), 'timeLabel', this.get('timeLabel'));
+      Ember.set(this.get('pikaday._o'), 'timeLabel', timeLabel);
 
     }
 

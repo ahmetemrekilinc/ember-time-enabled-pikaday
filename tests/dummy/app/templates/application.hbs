@@ -27,6 +27,11 @@ Standalone timeEnabled showSeconds=true datepicker:
 
 <br>
 
+Standalone timeEnabled datepicker with timeLabel:
+{{time-enabled-pikaday-input format='dddd MMMM Do YYYY, h:mm:ss a' timeEnabled=true timeLabel='Time: ' theme='dark-theme' onSelection=(action 'doSomethingWithSelectedValue')}}
+
+<br>
+
 timeEnabled Datepicker with bound and set value:
 {{time-enabled-pikaday-input value=startDate timeEnabled=true onSelection=(action (mut startDate)) format='DD.MM.YYYY HH:mm'}}
 {{startDate}}
