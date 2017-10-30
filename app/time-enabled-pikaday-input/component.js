@@ -1,0 +1,1 @@
+export {default} from 'ember-time-enabled-pikaday/time-enabled-pikaday-input/component';
