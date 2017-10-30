@@ -1,12 +1,13 @@
 # ember-time-enabled-pikaday
 
-This README outlines the details of collaborating on this Ember addon.
+This README outlines the details of collaborating on this ember-time-enabled-pikaday addon.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-time-enabled-pikaday`
-* `npm install`
+```bash
+cd your-project-directory
+ember install ember-time-enabled-pikaday
+```
 
 ## Usage
 Standalone datepicker:
