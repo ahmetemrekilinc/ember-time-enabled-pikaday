@@ -1,9 +1,14 @@
 /* eslint no-console: 0 */
-import Ember from 'ember';
+import Controller from '@ember/controller';
 
-export default Ember.Controller.extend({
-  startDate: new Date(),
-  today: new Date(),
+export default Controller.extend({
+
+  init(){
+    this._super(...arguments);
+    this.set('startDate', new Date());
+    this.set('today', new Date());
+  },
+
   actions: {
     clearStartDate: function() {
       this.set('startDate', null);
