@@ -1,6 +1,6 @@
 {
   "name": "ember-time-enabled-pikaday",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "time enabled extension of ember-pikaday",
   "keywords": [
     "ember-addon"
