@@ -1,13 +1,13 @@
 {
   "name": "ember-time-enabled-pikaday",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "time enabled extension of ember-pikaday",
   "keywords": [
     "ember-addon"
   ],
   "repository": "https://github.com/ahmetemrekilinc/ember-time-enabled-pikaday.git",
   "license": "MIT",
-  "author": "",
+  "author": "ahmetemrekilinc",
   "directories": {
     "doc": "doc",
     "test": "tests"
