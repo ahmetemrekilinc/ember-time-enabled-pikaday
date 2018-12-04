@@ -25,11 +25,11 @@ export default Pikaday.extend({
       set(this.get('pikaday._o'), 'disableWeekends', disableWeekends);
 
       if(!isBlank(this.get('minDate'))){
-        set(this.get('pikaday._o'), 'minDate', minDate);
+        set(this.get('pikaday._o'), 'minDate', this.get('minDate'));
       }
 
       if(!isBlank(this.get('maxDate'))){
-        set(this.get('pikaday._o'), 'maxDate', maxDate);
+        set(this.get('pikaday._o'), 'maxDate', this.get('maxDate'));
       }
 
     }

@@ -20,32 +20,32 @@ You can pass your value as `value` parameter and handle action as `onSelection` 
 {{time-enabled-pikaday-input onSelection=(action 'doSomethingWithSelectedValue') }}
 ```
 
-You can set enabling time selection as `timeEnabled` parameter.
+You can enable/disable time selection using `timeEnabled` parameter.
 ```hbs
 {{time-enabled-pikaday-input timeEnabled=true }}
 ```
 
-You can set 24 hour format as `use24hour` parameter.
+You can set 24 hour format using `use24hour` parameter.
 ```hbs
 {{time-enabled-pikaday-input use24hour=true }}
 ```
 
-You can enable/disable selecting minutes as `showMinutes` parameter.
+You can enable/disable selecting minutes using `showMinutes` parameter.
 ```hbs
 {{time-enabled-pikaday-input showMinutes=true }}
 ```
 
-You can enable/disable selecting seconds as `showSeconds` parameter.
+You can enable/disable selecting seconds using `showSeconds` parameter.
 ```hbs
 {{time-enabled-pikaday-input showSeconds=true }}
 ```
 
-You can enable/disable selecting weekends as `disableWeekends` parameter.
+You can enable/disable selecting weekends using `disableWeekends` parameter.
 ```hbs
 {{time-enabled-pikaday-input disableWeekends=true }}
 ```
 
-You can set custom time label as `timeLabel` parameter.
+You can set custom time label using `timeLabel` parameter.
 ```hbs
 {{time-enabled-pikaday-input timeLabel='My time: ' }}
 ```
