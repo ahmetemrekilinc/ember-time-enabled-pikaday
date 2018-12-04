@@ -1,49 +1,55 @@
 ember-time-enabled-pikaday
 ==============================================================================
 
-[Short description of the addon.]
+ember-time-enabled-pikaday is an addon that enables you creating time enabled `pikaday` components in your Ember.js application.
+[ember-pikaday](https://github.com/adopted-ember-addons/ember-pikaday) is used in background.
 
 Installation
 ------------------------------------------------------------------------------
 
 ```
+cd your-project-directory
 ember install ember-time-enabled-pikaday
 ```
-
 
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+You can pass your value as `value` parameter and handle action as `onSelection` parameter.
+```hbs
+{{time-enabled-pikaday-input onSelection=(action 'doSomethingWithSelectedValue') }}
+```
 
+You can set enabling time selection as `timeEnabled` parameter.
+```hbs
+{{time-enabled-pikaday-input timeEnabled=true }}
+```
 
-Contributing
-------------------------------------------------------------------------------
+You can set 24 hour format as `use24hour` parameter.
+```hbs
+{{time-enabled-pikaday-input use24hour=true }}
+```
 
-### Installation
+You can enable/disable selecting minutes as `showMinutes` parameter.
+```hbs
+{{time-enabled-pikaday-input showMinutes=true }}
+```
 
-* `git clone <repository-url>`
-* `cd ember-time-enabled-pikaday`
-* `yarn install`
+You can enable/disable selecting seconds as `showSeconds` parameter.
+```hbs
+{{time-enabled-pikaday-input showSeconds=true }}
+```
 
-### Linting
+You can enable/disable selecting weekends as `disableWeekends` parameter.
+```hbs
+{{time-enabled-pikaday-input disableWeekends=true }}
+```
 
-* `yarn lint:hbs`
-* `yarn lint:js`
-* `yarn lint:js --fix`
+You can set custom time label as `timeLabel` parameter.
+```hbs
+{{time-enabled-pikaday-input timeLabel='My time: ' }}
+```
 
-### Running tests
-
-* `ember test` – Runs the test suite on the current Ember version
-* `ember test --server` – Runs the test suite in "watch mode"
-* `ember try:each` – Runs the test suite against multiple Ember versions
-
-### Running the dummy application
-
-* `ember serve`
-* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
 License
 ------------------------------------------------------------------------------
