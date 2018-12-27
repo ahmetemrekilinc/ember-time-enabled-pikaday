@@ -1,6 +1,13 @@
 ember-time-enabled-pikaday
 ==============================================================================
 
+[![npm version](https://badge.fury.io/js/ember-time-enabled-pikaday.svg)](https://badge.fury.io/js/ember-time-enabled-pikaday.svg)
+[![Build Status](https://travis-ci.org/ahmetemrekilinc/ember-time-enabled-pikaday.svg?branch=master)](https://travis-ci.org/ahmetemrekilinc/ember-time-enabled-pikaday.svg?branch=master)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-time-enabled-pikaday.svg)](https://emberobserver.com/badges/ember-time-enabled-pikaday.svg)
+[![Dependency Status](https://david-dm.org/ahmetemrekilinc/ember-time-enabled-pikaday.svg)](https://david-dm.org/ahmetemrekilinc/ember-time-enabled-pikaday.svg)
+[![devDependency Status](https://david-dm.org/ahmetemrekilinc/ember-time-enabled-pikaday/dev-status.svg)](https://david-dm.org/ahmetemrekilinc/ember-time-enabled-pikaday/dev-status.svg)
+[![Code Climate](https://codeclimate.com/github/ahmetemrekilinc/ember-time-enabled-pikaday/badges/gpa.svg)](https://codeclimate.com/github/ahmetemrekilinc/ember-time-enabled-pikaday/badges/gpa.svg)
+
 ember-time-enabled-pikaday is an addon that enables you creating time enabled `pikaday` components in your Ember.js application.
 [ember-pikaday](https://github.com/adopted-ember-addons/ember-pikaday) is used in background.
 
