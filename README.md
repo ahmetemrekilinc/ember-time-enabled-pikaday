@@ -2,6 +2,7 @@ ember-time-enabled-pikaday
 ==============================================================================
 
 [![npm version](https://badge.fury.io/js/ember-time-enabled-pikaday.svg)](https://badge.fury.io/js/ember-time-enabled-pikaday.svg)
+[![downloads](https://img.shields.io/npm/dm/ember-time-enabled-pikaday.svg?style=flat-square)](https://img.shields.io/npm/dm/ember-time-enabled-pikaday.svg?style=flat-square)
 [![Build Status](https://travis-ci.org/ahmetemrekilinc/ember-time-enabled-pikaday.svg?branch=master)](https://travis-ci.org/ahmetemrekilinc/ember-time-enabled-pikaday.svg?branch=master)
 [![Ember Observer Score](https://emberobserver.com/badges/ember-time-enabled-pikaday.svg)](https://emberobserver.com/badges/ember-time-enabled-pikaday.svg)
 [![Dependency Status](https://david-dm.org/ahmetemrekilinc/ember-time-enabled-pikaday.svg)](https://david-dm.org/ahmetemrekilinc/ember-time-enabled-pikaday.svg)
