@@ -58,6 +58,7 @@ You can set custom time label using `timeLabel` parameter.
 {{time-enabled-pikaday-input timeLabel='My time: ' }}
 ```
 
+Checkout live examples at [ember-time-enabled-pikaday demo page](https://ahmetemrekilinc.github.io/ember-time-enabled-pikaday-demo/)
 
 License
 ------------------------------------------------------------------------------
