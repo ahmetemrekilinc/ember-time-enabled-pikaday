@@ -17,10 +17,6 @@ module.exports = {
     app.import('node_modules/pikaday-time/pikaday.js');
     app.import('node_modules/pikaday-time/css/pikaday.css');
 
-  },
-  config(){
-    let ENV = {};
-    return ENV;
   }
 
 };
