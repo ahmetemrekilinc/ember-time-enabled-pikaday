@@ -5,16 +5,19 @@ export default Controller.extend({
 
   init(){
     this._super(...arguments);
-    this.set('startDate', new Date());
-    this.set('today', new Date());
+    this.set('timeValue', new Date());
+    this.set('dateValue', new Date());
   },
 
   actions: {
-    clearStartDate: function() {
-      this.set('startDate', null);
+
+    onSelectionDate(dateValue){
+      this.set("dateValue", dateValue);
     },
-    doSomethingWithSelectedValue(value) {
-      console.log(value);
+
+    onSelectionTime(timeValue){
+      this.set("timeValue", timeValue);
     }
-  },
+
+  }
 });
