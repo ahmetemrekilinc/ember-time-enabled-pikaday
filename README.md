@@ -25,37 +25,37 @@ Usage
 
 You can pass your value as `value` parameter and handle action as `onSelection` parameter.
 ```hbs
-{{time-enabled-pikaday-input onSelection=(action 'doSomethingWithSelectedValue') }}
+<TimeEnabledPikadayInput @value={{this.timeValue}} @onSelection={{this.doSomethingWithSelectedValue}} />
 ```
 
 You can enable/disable time selection using `timeEnabled` parameter.
 ```hbs
-{{time-enabled-pikaday-input timeEnabled=true }}
+<TimeEnabledPikadayInput @timeEnabled={{this.timeEnabled}} />
 ```
 
 You can set 24 hour format using `use24hour` parameter.
 ```hbs
-{{time-enabled-pikaday-input use24hour=true }}
+<TimeEnabledPikadayInput @use24hour=true />
 ```
 
 You can enable/disable selecting minutes using `showMinutes` parameter.
 ```hbs
-{{time-enabled-pikaday-input showMinutes=true }}
+<TimeEnabledPikadayInput @showMinutes=true />
 ```
 
 You can enable/disable selecting seconds using `showSeconds` parameter.
 ```hbs
-{{time-enabled-pikaday-input showSeconds=true }}
+<TimeEnabledPikadayInput @showSeconds=true />
 ```
 
 You can enable/disable selecting weekends using `disableWeekends` parameter.
 ```hbs
-{{time-enabled-pikaday-input disableWeekends=true }}
+<TimeEnabledPikadayInput @disableWeekends=true />
 ```
 
 You can set custom time label using `timeLabel` parameter.
 ```hbs
-{{time-enabled-pikaday-input timeLabel='My time: ' }}
+<TimeEnabledPikadayInput @timeLabel='My time: ' />
 ```
 
 Checkout live examples at [ember-time-enabled-pikaday demo page](https://ahmetemrekilinc.github.io/ember-time-enabled-pikaday-demo/)
