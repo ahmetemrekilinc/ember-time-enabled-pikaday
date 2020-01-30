@@ -1,8 +1,12 @@
-With Time Input: {{time-enabled-pikaday-input value=timeValue timeEnabled=true onSelection=(action "onSelectionTime") }} Binded value: {{timeValue}}
-<br>
-Without Time Input: {{time-enabled-pikaday-input value=dateValue onSelection=(action "onSelectionDate") }} Binded value: {{dateValue}}
-<br>
-With Time Inputless: {{time-enabled-pikaday-inputless value=timeValue timeEnabled=true onSelection=(action "onSelectionTime") }} Binded value: {{timeValue}}
-<br>
-Without Time Inputless: {{time-enabled-pikaday-inputless value=dateValue onSelection=(action "onSelectionDate") }} Binded value: {{dateValue}}
-<br>
+<div class="ember-view">
+  <ul class="app-tab">
+    <li class="app-tab-item"><a href="https://github.com/ahmetemrekilinc/ember-time-enabled-pikaday" target="_blank" rel="noopener noreferrer">Github</a></li>
+    <li class="app-tab-item"><a href="https://www.npmjs.com/package/ember-time-enabled-pikaday" target="_blank" rel="noopener noreferrer">Npmjs</a></li>
+  </ul>
+  <br>
+  <GenericDemoPage @name='Example Usage of Ember Time Enabled Pikaday' @files='showcase.hbs,showcase.js'>
+    <Showcase/>
+  </GenericDemoPage>
+
+  {{outlet}}
+</div>
